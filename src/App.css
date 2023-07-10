@@ -1,0 +1,141 @@
+
+.channel-name{
+  color:rgb(71, 65, 65);
+  font-weight: bold;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:50px;
+
+
+
+}
+.video-container {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100vh;
+}
+.card-container{
+  padding: 50px;
+  max-width: 500px;
+}
+.description{
+ display: block;
+width: 800px;
+
+
+
+  
+}
+.video-container{
+  display: flex;
+  flex-direction: row;
+}
+.videoplayer{
+  padding: 50px;
+  
+}
+.recommended-videos{
+display: flex;
+flex-direction: column;
+ width: 350px;
+ margin-top: 20px;
+ padding-left: 150px;
+  
+}
+.custom-link {
+  color: inherit; /* Inherit the color from the parent */
+  text-decoration: none; /* Remove the default underline */
+  
+}
+
+.custom-link:focus,
+.custom-link:hover {
+  color: inherit; /* Inherit the color from the parent */
+  text-decoration: none; /* Remove the underline on hover/focus */
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+.comment{
+  display: flex;
+  gap:10px;
+}
+.comments-container {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-info,
+.reply-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-author,
+.reply-author {
+  font-weight: bold;
+}
+
+.comment-published,
+.reply-published {
+  color: #888;
+  font-size: 12px;
+}
+
+.comment-text,
+.reply-text {
+  margin-top: 10px;
+}
+
+.reply-button {
+  margin-top: 10px;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.replies {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.reply {
+  margin-bottom: 10px;
+}
+
+.reply-header {
+  display: flex;
+  align-items: center;
+}
+
+.reply-text {
+  margin-top: 5px;
+}
