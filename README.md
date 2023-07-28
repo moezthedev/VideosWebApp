@@ -1,3 +1,4 @@
+Please replace your own api key in components/Comments.js search.js videos.js recommended.js to load videos properly.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
